@@ -1,0 +1,29 @@
+{
+  "name": "egg-mssql-plugin",
+  "version": "1.0.0",
+  "description": "用于Egg使用mssql",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiandaox/egg-mssql-plugin.git"
+  },
+  "keywords": [
+    "egg-mssql",
+    "egg-plugin"
+  ],
+  "author": "tiandaox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiandaox/egg-mssql-plugin/issues"
+  },
+  "homepage": "https://github.com/tiandaox/egg-mssql-plugin#readme",
+  "dependencies": {
+    "mssql": "^4.1.0"
+  },
+  "eggPlugin":{
+    "name":"mssql"
+  }
+}
