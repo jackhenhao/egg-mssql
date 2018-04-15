@@ -1,29 +1,57 @@
 {
-  "name": "egg-mssql-plugin",
+  "name": "egg-mssql",
   "version": "1.0.0",
-  "description": "用于Egg使用mssql",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tiandaox/egg-mssql-plugin.git"
+  "description": "基本mssql的egg插件",
+  "eggPlugin": {
+    "name": "mssql"
   },
   "keywords": [
-    "egg-mssql",
+    "egg",
+    "eggPlugin",
     "egg-plugin"
   ],
-  "author": "tiandaox",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tiandaox/egg-mssql-plugin/issues"
-  },
-  "homepage": "https://github.com/tiandaox/egg-mssql-plugin#readme",
   "dependencies": {
     "mssql": "^4.1.0"
   },
-  "eggPlugin":{
-    "name":"mssql"
-  }
+  "devDependencies": {
+    "autod": "^3.0.0",
+    "autod-egg": "^1.0.0",
+    "egg": "^2.0.0",
+    "egg-bin": "^4.3.0",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.13.0",
+    "eslint": "^4.11.0",
+    "eslint-config-egg": "^5.1.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles",
+    "autod": "autod"
+  },
+  "files": [
+    "app.js",
+    "agent.js",
+    "config"
+  ],
+  "ci": {
+    "version": "8, 9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggjs/egg-mssql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eggjs/egg/issues"
+  },
+  "homepage": "https://github.com/eggjs/egg-mssql#readme",
+  "author": "tiandaox",
+  "license": "MIT"
 }
