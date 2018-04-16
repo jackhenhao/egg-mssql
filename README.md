@@ -20,9 +20,8 @@
 [download-image]: https://img.shields.io/npm/dm/egg-mssql.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-mssql
 
-<!--
-Description here.
--->
+## Description
+This plugin based on [mssql](https://www.npmjs.com/package/mssql).
 
 ## Install
 
