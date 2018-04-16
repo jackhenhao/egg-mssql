@@ -101,6 +101,12 @@ module.exports = UserService;
 
 ```
 
+## Unit testing
+```js
+// https://eggjs.org/zh-cn/core/unittest.html
+npm run test
+```
+
 ## Questions & Suggestions
 
 Please open an issue [here](https://github.com/tiandaox/egg-mssql/issues).
