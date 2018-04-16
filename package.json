@@ -37,21 +37,22 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
+    "config",
     "agent.js",
-    "config"
+    "lib",
+    "app.js"
   ],
   "ci": {
     "version": "8, 9"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-mssql.git"
+    "url": "git+https://github.com/tiandaox/egg-mssql"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/tiandaox/egg-mssql/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-mssql#readme",
+  "homepage": "https://github.com/tiandaox/egg-mssql#readme",
   "author": "tiandaox",
   "license": "MIT"
 }
