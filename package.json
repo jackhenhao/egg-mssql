@@ -11,7 +11,7 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "mssql": "^4.1.0"
+    "mssql": "^4.3.9"
   },
   "devDependencies": {
     "autod": "^3.0.0",
