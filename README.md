@@ -21,7 +21,9 @@
 [download-url]: https://npmjs.org/package/egg-mssql
 
 ## Description
-This plugin based on [mssql](https://www.npmjs.com/package/mssql).
+*This plugin based on [mssql](https://www.npmjs.com/package/mssql).*
+
+recommend to use [egg-sequelize](https://www.npmjs.com/package/egg-sequelize).
 
 ## Install
 
