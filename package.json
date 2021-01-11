@@ -1,6 +1,6 @@
 {
   "name": "egg-mssql",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "基本mssql的egg插件",
   "eggPlugin": {
     "name": "mssql"
